@@ -1,24 +1,35 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="ui horizontal segment">
-      <a target="_blank" href="https://www.linkedin.com/in/brienmizell/">
-        <button>
-          <i className="linkedin icon" />
-        </button>
-      </a>
-      <a target="_blank" href="https://github.com/brienmizell">
-        <button>
-          <i className="github icon" />
-        </button>
-      </a>
-      <a href="mailto:brienmizell@me.com">
-        <button>
-          <i className="envelope icon" />
-        </button>
-      </a>
-    </footer>
+    <div className="three ui buttons">
+      <div className="big ui animated fade facebook button ">
+        <div class="visible content">
+          <i className="big linkedin icon" />
+        </div>
+        <div className="big hidden content">LinkedIn</div>
+      </div>
+      <div
+        className="big ui animated fade github button"
+        style={{ backgroundColor: "black" }}
+      >
+        <div class="visible content">
+          <i className="big github icon inverted" />
+        </div>
+        <div className="big hidden content" style={{ color: "white" }}>
+          GitHub
+        </div>
+      </div>
+      <div className="big ui animated fade button ">
+        <div class="visible content">
+          <a href="mailto:brienmizell@me.com">
+            <i className="big envelope icon" style={{ color: "black" }} />
+          </a>
+        </div>
+        <div className="big hidden content">Email Me</div>
+      </div>
+    </div>
   );
 };
 
