@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Interests from "./Interests";
 import Header from "./Header";
 import history from "../history";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/contact" component={Contact} />
           <Route path="/interests" component={Interests} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
