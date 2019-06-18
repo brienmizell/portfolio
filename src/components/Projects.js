@@ -11,13 +11,13 @@ const Projects = () => {
           />
         </div>
         <div className="content">
-          <a className="header">dragonStack</a>
+          <a className="header center aligned">dragonStack</a>
           <br />
-          <div className="meta">
+          <div className="meta center aligned">
             <span className="date">Full-Stack Project</span>
           </div>
           <br />
-          <div className="paragraph">
+          <div className="paragraph center aligned">
             <p>
               dragonStack is a full-stack web application with both a backend
               and a frontend. It uses Node.js, Express.js, and PostgreSQL on the
@@ -29,7 +29,7 @@ const Projects = () => {
           <br />
           <div className="extra content center floated">
             <div
-              className="big ui animated fade github button  center floated"
+              className="big ui animated fade github button center floated"
               style={{
                 backgroundColor: "black",
                 display: "flex",
