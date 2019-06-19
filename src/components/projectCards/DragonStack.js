@@ -35,7 +35,7 @@ const DragonStack = () => {
               justifyContent: "center"
             }}
           >
-            <div class="visible content">
+            <div className="visible content">
               <i className="big github icon inverted" />
             </div>
             <div className="big hidden content" style={{ color: "white" }}>
