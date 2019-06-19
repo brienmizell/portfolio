@@ -12,7 +12,7 @@ class App extends Component {
     this.searchArtist("Daft Punk");
   }
 
-  updateArtistQuery = () => {
+  updateArtistQuery = event => {
     this.setState({ artistQuery: event.target.value });
   };
 
