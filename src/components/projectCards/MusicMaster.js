@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const MusicMatch = () => {
+const MusicMaster = () => {
   return (
     <div className="ui card">
       <div className="image">
         <img
-          src={require("../../images/MusicMatch.png")}
-          alt="dragon stack image"
+          src={require("../../images/MusicMaster.png")}
+          alt="Music Master image"
         />
       </div>
       <div className="content">
-        <a className="header center aligned">Music Match</a>
+        <a className="header center aligned">Music Master</a>
         <br />
         <div className="meta center aligned">
           <span className="date">Front-End Project</span>
@@ -18,35 +19,66 @@ const MusicMatch = () => {
         <br />
         <div className="paragraph center aligned">
           <p>
-            Music Match is a Front-End web application. It uses Spotify's API to
-            search for any artist the user enters in to fetch the artist's info
-            (picture, number of followers, and top tracks). It renders the top
-            songs in rows with their corresponding album art. Once the user
+            The Music Master project is a small web app for the sole purpose of
+            reinforceing my learning of react by building a functional music
+            player.
+            <br />
+            <br />
+            Music Master is a Front-End web application. It uses Spotify's API
+            to search for any artist the user enters in to fetch the artist's
+            info (picture, number of followers, and top tracks). It renders the
+            top songs in rows with their corresponding album art. Once the user
             clicks the song, it will begin to play a 30-second snippet of the
             song chosen.
           </p>
         </div>
         <br />
         <div className="extra content center floated">
-          <div
-            className="big ui animated fade github button center floated"
-            style={{
-              backgroundColor: "black",
-              display: "flex",
-              justifyContent: "center"
-            }}
+          <a
+            href="https://github.com/brienmizell/mini-react-projects/tree/master/music-master2.0"
+            target="_blank"
           >
-            <div className="visible content">
-              <i className="big github icon inverted" />
+            <div
+              className="big ui animated fade github button center floated"
+              style={{
+                backgroundColor: "black",
+                display: "flex",
+                justifyContent: "center"
+              }}
+            >
+              <div className="visible content">
+                <i className="big github icon inverted" />
+              </div>
+              <div className="big hidden content" style={{ color: "white" }}>
+                GitHub
+              </div>
             </div>
-            <div className="big hidden content" style={{ color: "white" }}>
-              GitHub
+          </a>
+          <br />
+          <Link to="/music">
+            <div
+              className="big ui animated fade icon button"
+              style={{
+                backgroundColor: "grey",
+                display: "flex",
+                justifyContent: "center"
+              }}
+            >
+              <div className="visible content">
+                <i
+                  className="big bicycle icon inverted"
+                  style={{ paddingRight: "10px" }}
+                />
+              </div>
+              <div className="big hidden content" style={{ color: "white" }}>
+                Try it out!
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
   );
 };
 
-export default DragonStack;
+export default MusicMaster;

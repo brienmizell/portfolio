@@ -1,10 +1,12 @@
 import React from "react";
 import DragonStack from "./projectCards/DragonStack";
+import MusicMaster from "./projectCards/MusicMaster";
 
 const Projects = () => {
   return (
     <div className="ui three doubling stackable cards">
       <DragonStack />
+      <MusicMaster />
     </div>
   );
 };

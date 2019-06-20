@@ -18,6 +18,14 @@ const DragonStack = () => {
         <br />
         <div className="paragraph center aligned">
           <p>
+            The dragonStack Project is a multi-account collector’s application
+            for gathering dragons. You can trade, purchase, and breed your
+            dragons! By selling dragons, you earn currency. Or if another
+            account uses your dragon for its mating services, you also get
+            currency. Each dragon has unique traits, and belongs to a specific
+            generation.
+            <br />
+            <br />
             dragonStack is a full-stack web application with both a backend and
             a frontend. It uses Node.js, Express.js, and PostgreSQL on the
             backend to create a server, API, and manage the database. For the
