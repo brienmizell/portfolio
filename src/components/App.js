@@ -8,6 +8,7 @@ import Header from "./Header";
 import history from "../history";
 import Footer from "./Footer";
 import MusicApp from "./MusicApp";
+import Pictures from "./Pictures";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/contact" exact component={Contact} />
           <Route path="/interests" exact component={Interests} />
           <Route path="/music" exact component={MusicApp} />
+          <Route path="/pictures" exact component={Pictures} />
         </Switch>
         <Footer />
       </Router>
