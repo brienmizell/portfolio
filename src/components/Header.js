@@ -1,47 +1,43 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { Menu, Segment } from "semantic-ui-react";
+
+// let containsActive = document.querySelector(".ui .item").onclick = function() {
+//   document.querySelector(".ui .item") ? remove("active") : ;
+//   $(this).addClass("active");
+// };
+
+let selector = "div";
+
+let elems = document.querySelector(selector);
+
+let makeActive = function() {
+  for (var i = 0; i < elems.length; i++) elems[i].classList.remove("active");
+
+  this.classList.add("active");
+};
+
+for (var i = 0; i < elems.length; i++)
+  elems[i].addEventListener("mousedown", makeActive);
 
 class Header extends Component {
   state = { activeItem: "home" };
 
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
-
   render() {
-    const { activeItem } = this.state;
+    const { makeActive } = this.state;
 
     return (
-      <div>
-        <Menu pointing>
-          <Menu.Item
-            name="home"
-            active={activeItem === "home"}
-            onClick={this.handleItemClick}
-          >
-            <Link to="/">Home</Link>
-          </Menu.Item>
-          <Menu.Item
-            name="projects"
-            active={activeItem === "projects"}
-            onClick={this.handleItemClick}
-          >
-            <Link to="/projects">Projects</Link>
-          </Menu.Item>
-          <Menu.Item
-            name="contact"
-            active={activeItem === "contact"}
-            onClick={this.handleItemClick}
-          >
-            <Link to="/contact">Contacts</Link>
-          </Menu.Item>
-          <Menu.Item
-            name="interests"
-            active={activeItem === "interests"}
-            onClick={this.handleItemClick}
-          >
-            <Link to="/interests">Interests</Link>
-          </Menu.Item>
-        </Menu>
+      <div className="ui four item menu">
+        <a href="/" className="active item">
+          About
+        </a>
+        <a href="/projects" className="item">
+          Projects
+        </a>
+        <a href="/contact" className="item">
+          Contact
+        </a>
+        <a href="/interests" className="item">
+          Interests
+        </a>
       </div>
     );
   }

@@ -4,7 +4,11 @@ const Footer = () => {
   return (
     <div className="three ui buttons" style={{ paddingTop: "15px" }}>
       <div className="big ui animated fade facebook button ">
-        <a href="https://www.linkedin.com/in/brienmizell/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/brienmizell/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <div className="visible content">
             <i className="big linkedin icon" />
           </div>
@@ -15,7 +19,11 @@ const Footer = () => {
         className="big ui animated fade github button"
         style={{ backgroundColor: "black" }}
       >
-        <a href="https://github.com/brienmizell" target="_blank">
+        <a
+          href="https://github.com/brienmizell"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <div className="visible content">
             <i className="big github icon inverted" />
           </div>
