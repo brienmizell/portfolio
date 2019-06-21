@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 
+// let containsActive = document.querySelector(".ui .item").onclick = function() {
+//   document.querySelector(".ui .item") ? remove("active") : ;
+//   $(this).addClass("active");
+// };
+
 let selector = "div";
 
 let elems = document.querySelector(selector);

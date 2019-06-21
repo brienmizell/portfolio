@@ -5,13 +5,10 @@ const MusicMaster = () => {
   return (
     <div className="ui card">
       <div className="image">
-        <img
-          src={require("../../images/MusicMaster.png")}
-          alt="Music Master image"
-        />
+        <img src={require("../../images/MusicMaster.png")} alt="Music Master" />
       </div>
       <div className="content">
-        <a className="header center aligned">Music Master</a>
+        <div className="header center aligned">Music Master</div>
         <br />
         <div className="meta center aligned">
           <span className="date">Front-End Project</span>
@@ -36,6 +33,7 @@ const MusicMaster = () => {
         <div className="extra content center floated">
           <a
             href="https://github.com/brienmizell/mini-react-projects/tree/master/music-master2.0"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <div

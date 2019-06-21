@@ -5,6 +5,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Interests from "./Interests";
 import Header from "./Header";
+import HeaderTest from "./HeaderTest";
 import history from "../history";
 import Footer from "./Footer";
 import MusicApp from "./MusicApp";
