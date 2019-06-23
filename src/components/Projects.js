@@ -1,12 +1,14 @@
 import React from "react";
 import DragonStack from "./projectCards/DragonStack";
 import MusicMaster from "./projectCards/MusicMaster";
+import PictureSearch from "./projectCards/PictureSearch";
 
 const Projects = () => {
   return (
     <div className="ui three doubling stackable cards">
       <DragonStack />
       <MusicMaster />
+      <PictureSearch />
     </div>
   );
 };
