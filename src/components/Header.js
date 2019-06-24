@@ -1,44 +1,57 @@
 import React, { Component } from "react";
-
-// let containsActive = document.querySelector(".ui .item").onclick = function() {
-//   document.querySelector(".ui .item") ? remove("active") : ;
-//   $(this).addClass("active");
-// };
-
-let selector = "div";
-
-let elems = document.querySelector(selector);
-
-let makeActive = function() {
-  for (var i = 0; i < elems.length; i++) elems[i].classList.remove("active");
-
-  this.classList.add("active");
-};
-
-for (var i = 0; i < elems.length; i++)
-  elems[i].addEventListener("mousedown", makeActive);
+import { Menu, Segment } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
   state = { activeItem: "home" };
 
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name });
+
   render() {
-    const { makeActive } = this.state;
+    const { activeItem } = this.state;
 
     return (
-      <div className="ui four item menu">
-        <a href="/" className="active item">
-          About
-        </a>
-        <a href="/projects" className="item">
-          Projects
-        </a>
-        <a href="/contact" className="item">
-          Contact
-        </a>
-        <a href="/interests" className="item">
-          Interests
-        </a>
+      <div style={{ paddingBottom: "20px" }}>
+        <Menu pointing>
+          <Menu.Item
+            name="home"
+            active={activeItem === "home"}
+            onClick={this.handleItemClick}
+            as={Link}
+            to="/"
+          />
+
+          <Menu.Item
+            name="projects"
+            active={activeItem === "projects"}
+            onClick={this.handleItemClick}
+            as={Link}
+            to="/projects"
+          />
+          <Menu.Item
+            name="interests"
+            active={activeItem === "interests"}
+            onClick={this.handleItemClick}
+            as={Link}
+            to="/interests"
+          >
+            <a href="/interests" style={{ color: "black" }}>
+              interests
+            </a>
+          </Menu.Item>
+        </Menu>
       </div>
+      // <div className="ui four item menu">
+      //   <a href="/projects" className="item">
+      //     Projects
+      //   </a>
+      //   <a href="/contact" className="item">
+      //     Contact
+      //   </a>
+      //   <a href="/interests" className="item">
+      //     Interests
+      //   </a>
+      // </div>
     );
   }
 }
