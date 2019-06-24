@@ -41,38 +41,8 @@ class Header extends Component {
           </Menu.Item>
         </Menu>
       </div>
-      // <div className="ui four item menu">
-      //   <a href="/projects" className="item">
-      //     Projects
-      //   </a>
-      //   <a href="/contact" className="item">
-      //     Contact
-      //   </a>
-      //   <a href="/interests" className="item">
-      //     Interests
-      //   </a>
-      // </div>
     );
   }
 }
 
 export default Header;
-
-// const Header = () => {
-//   return (
-// <div className="ui four item secondary pointing menu">
-//   <Link to="/" className="item">
-//     Home
-//   </Link>
-//   <Link to="/projects" className="item">
-//     Projects
-//   </Link>
-//   <Link to="/contact" className="item">
-//     Contacts
-//   </Link>
-//   <Link to="/interests" className="item">
-//     Interests
-//   </Link>
-// </div>;
-//   );
-// };
