@@ -8,3 +8,5 @@ const DateCountdown = () => {
     </div>
   );
 };
+
+export default DateCountdown;
