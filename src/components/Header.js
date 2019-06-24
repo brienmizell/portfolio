@@ -11,7 +11,7 @@ class Header extends Component {
     const { activeItem } = this.state;
 
     return (
-      <div style={{ paddingBottom: "20px" }}>
+      <div style={{ paddingBottom: "20px" }} className="ui four">
         <Menu pointing>
           <Menu.Item
             name="home"

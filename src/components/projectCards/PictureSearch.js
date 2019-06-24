@@ -76,7 +76,12 @@ const PictureSearch = () => {
                   style={{ paddingRight: "10px" }}
                 />
               </div>
-              <div className="big hidden content" style={{ color: "white" }}>
+              <div
+                className="big hidden content"
+                style={{ color: "white" }}
+                as={Link}
+                to="/pictures"
+              >
                 Try it out!
               </div>
             </div>
