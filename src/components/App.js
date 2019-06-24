@@ -24,7 +24,7 @@ const App = () => {
           <Route path="/interests" exact component={Interests} />
           <Route path="/music" exact component={MusicApp} />
           <Route path="/pictures" exact component={Pictures} />
-          <Route path="/countdown" exact component={Pictures} />
+          <Route path="/countdown" exact component={DateCountdown} />
         </Switch>
         <Footer />
       </Router>
