@@ -34,11 +34,7 @@ class Header extends Component {
             onClick={this.handleItemClick}
             as={Link}
             to="/interests"
-          >
-            <a href="/interests" style={{ color: "black" }}>
-              interests
-            </a>
-          </Menu.Item>
+          />
         </Menu>
       </div>
     );
