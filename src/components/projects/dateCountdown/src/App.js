@@ -32,7 +32,7 @@ class App extends Component {
               this.setState({ newDeadline: event.target.value })
             }
           >
-            <div className="ui form" style={{ fontSize: "30px" }}>
+            <div className="ui form" style={{ fontSize: "25px" }}>
               Enter a date:{" "}
             </div>
             <div className="ui large action input" style={{ width: "600px" }}>
