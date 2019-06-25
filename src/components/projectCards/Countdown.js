@@ -1,17 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const PictureSearch = () => {
+const Countdown = () => {
   return (
     <div className="ui card">
       <div className="image">
         <img
-          src={require("../../images/PictureSearch.png")}
-          alt="Pictures Search"
+          src={require("../../images/Countdown.png")}
+          alt="countdown"
+          style={{
+            backgroundColor: "white"
+          }}
         />
       </div>
       <div className="content">
-        <div className="header center aligned">Picture Search</div>
+        <div className="header center aligned">Date Countdown</div>
         <br />
         <div className="meta center aligned">
           <span className="date">Front-End Project</span>
@@ -19,17 +22,21 @@ const PictureSearch = () => {
         <br />
         <div className="paragraph center aligned">
           <p>
-            The Picture Search project is a small web app for the sole objective
-            of reinforcing my knowledge of React by building an image search
-            app.
+            The Date Countdown project is a small web app for the sole objective
+            of reinforcing my knowledge of React by building a count down timer
+            for a given date.
             <br />
             <br />
-            Picture Search is a Front-End web application. It uses Unsplash's
-            API to search for an image of any subject matter user enters. It
-            renders the top 10 photos in rows using CSS Grid. It takes in the
-            height of each photo and adjusts the Grid-row-end, and the
-            grid-auto-rows to sure the image gets just as much space as it needs
-            to give the images a look and feel that I wanted to accomplish.
+            Date Countdown is a Front-End web application. It uses JavaScript's
+            standard built-in Date object to get the current Unix Time Stamp and
+            subtract it from the future date's Unix Timestamp. Since the Unix
+            Time Stamp is in milliseconds, I created variables days, hours,
+            minutes, and seconds to calculate the values that correspond to
+            their names. I then rendered them to the screen every second using a
+            setInterval. I had to create a leading0 lifecycle method to keep the
+            countdown consistent, so the text wouldn't shift when the values got
+            under 10. Once the value of days, hours, minutes or seconds is less
+            than 10, it adds a 0 to the current value.
           </p>
         </div>
         <br />
@@ -56,7 +63,7 @@ const PictureSearch = () => {
             </div>
           </a>
           <br />
-          <Link to="/pictures">
+          <Link to="/countdown">
             <div
               className="big ui animated fade icon button"
               style={{
@@ -87,4 +94,4 @@ const PictureSearch = () => {
   );
 };
 
-export default PictureSearch;
+export default Countdown;
