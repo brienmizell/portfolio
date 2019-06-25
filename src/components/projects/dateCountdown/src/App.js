@@ -32,25 +32,27 @@ class App extends Component {
               this.setState({ newDeadline: event.target.value })
             }
           >
-            <label>Enter a date: </label>
-            <input
-              className="Deadline-input"
-              type="text"
-              name="date"
-              placeholder="December 25 2019"
-              onChange={event =>
-                this.setState({ newDeadline: event.target.value })
-              }
-              onKeyPress={this.handleKeyPress}
-            />
+            <div className="ui form" style={{ fontSize: "30px" }}>
+              Enter a date:{" "}
+            </div>
+            <div className="ui large action input" style={{ width: "600px" }}>
+              <input
+                type="text"
+                name="date"
+                placeholder="December 25 2019"
+                onChange={event =>
+                  this.setState({ newDeadline: event.target.value })
+                }
+                onKeyPress={this.handleKeyPress}
+              />
+              <div
+                class="ui primary button"
+                onClick={() => this.changeDeadline()}
+              >
+                Submit
+              </div>
+            </div>
           </div>
-
-          <button
-            className="ui primary button"
-            onClick={() => this.changeDeadline()}
-          >
-            Submit
-          </button>
         </div>
       </div>
     );
