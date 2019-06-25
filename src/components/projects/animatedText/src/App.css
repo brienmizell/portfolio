@@ -1,0 +1,90 @@
+.hint-text {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: unsafe center;
+  flex-direction: column;
+  justify-content: center;
+  text-justify: auto;
+  pointer-events: none;
+}
+div.first {
+}
+
+.hint-text .text-line {
+  color: red;
+  -webkit-text-stroke-color: red;
+  position: relative;
+  margin-bottom: 8px;
+  /* border: 1px solid blue; */
+  overflow: hidden;
+}
+.hint-text .text-line p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 170px;
+  line-height: 56%;
+  text-align: justify;
+  text-align-last: justify;
+  margin: 0;
+  position: relative;
+  -webkit-text-stroke-width: 2.5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: -0.2rem;
+  padding: 18px 0px 12px 0px;
+}
+.hint-text .text-line p:after {
+  content: ”;
+  display: inline-block;
+  width: 100%;
+}
+.hint-text .text-line p.abs {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.hint-text .text-line p.outline {
+  color: transparent;
+  -webkit-text-stroke-width: 2.5px;
+}
+.hint-text .text-line p.t-top {
+  transform-origin: top;
+}
+.hint-text .text-line p.t-bottom {
+  transform-origin: bottom;
+}
+.hint-text .text-line:first-child p.scale-down,
+.hint-text .text-line:first-child p.scale-up,
+.hint-text .text-line:nth-child(2) p.scale-down,
+.hint-text .text-line:nth-child(2) p.scale-up {
+  transition: transform 1s cubic-bezier(0.6, 0.01, 0.43, 0.99);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.hint-text .text-line:first-child p.scale-down {
+  transform: translateZ(0) scaleY(1);
+}
+.hint-text .text-line:first-child p.scale-down.active {
+  transform: translateZ(0) scaleY(0);
+}
+.hint-text .text-line:first-child p.scale-up {
+  transform: translateZ(0) scaleY(0);
+}
+.hint-text .text-line:first-child p.scale-up.active {
+  transform: translateZ(0) scaleY(1);
+}
+.hint-text .text-line:nth-child(2) p.scale-down {
+  transform: translateZ(0) scaleY(1);
+}
+.hint-text .text-line:nth-child(2) p.scale-down.active {
+  transform: translateZ(0) scaleY(0);
+}
+.hint-text .text-line:nth-child(2) p.scale-up {
+  transform: translateZ(0) scaleY(0);
+}
+.hint-text .text-line:nth-child(2) p.scale-up.active {
+  transform: translateZ(0) scaleY(1);
+}
