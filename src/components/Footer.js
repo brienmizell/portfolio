@@ -2,7 +2,21 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="three ui buttons" style={{ paddingTop: "15px" }}>
+    <div
+      className="three ui buttons container"
+      style={{
+        paddingTop: "15px",
+        position: "absolute",
+        bottom: "0",
+        width: "100%",
+        height: "36px",
+        paddingTop: "20px",
+        paddingTop: "20px",
+        backgroundColor: "none",
+        marginTop: "0",
+        marginBottom: "0"
+      }}
+    >
       <div className="big ui animated fade facebook button ">
         <a
           href="https://www.linkedin.com/in/brienmizell/"

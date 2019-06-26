@@ -11,8 +11,6 @@
   text-justify: auto;
   pointer-events: none;
 }
-div.first {
-}
 
 .hint-text .text-line {
   color: red;
@@ -23,9 +21,9 @@ div.first {
   overflow: hidden;
 }
 .hint-text .text-line p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto Mono", monospace;
   font-size: 170px;
-  line-height: 56%;
+  line-height: 48%;
   text-align: justify;
   text-align-last: justify;
   margin: 0;
@@ -34,7 +32,7 @@ div.first {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: -0.2rem;
-  padding: 18px 0px 12px 0px;
+  padding: 18px 0px 26px 0px;
 }
 .hint-text .text-line p:after {
   content: ”;
