@@ -8,10 +8,11 @@ const Animation = () => {
         <img
           src={require("../../images/Animated-text.gif")}
           alt="Pictures Search"
+          style={{ padding: "178.815px 0px", backgroundColor: "white" }}
         />
       </div>
       <div className="content">
-        <div className="header center aligned">Picture Search</div>
+        <div className="header center aligned">Name Animation</div>
         <br />
         <div className="meta center aligned">
           <span className="date">Front-End Project</span>
@@ -19,17 +20,20 @@ const Animation = () => {
         <br />
         <div className="paragraph center aligned">
           <p>
-            The Picture Search project is a small web app for the sole objective
-            of reinforcing my knowledge of React by building an image search
-            app.
+            The Name Animation project is my dive into CSS animations. I had my
+            portfolio website in mind when I thought of it. I wanted to build
+            something that I thought up, I researched, and I produced from the
+            ground up.
             <br />
             <br />
-            Picture Search is a Front-End web application. It uses Unsplash's
-            API to search for an image of any subject matter user enters. It
-            renders the top 10 photos in rows using CSS Grid. It takes in the
-            height of each photo and adjusts the Grid-row-end, and the
-            grid-auto-rows to sure the image gets just as much space as it needs
-            to give the images a look and feel that I wanted to accomplish.
+            What seemed like wouldn't be too hard, quickly turned out to be
+            quite a challenge. I knew what I wanted, but a lot of the challenge
+            was translating my thought process of creating it, to the CSS
+            keywords that are needed to make it. Then finding the right cubic
+            bezier that I wanted, deciding if I wanted to alter the line spacing
+            of my first name to have them the same width, picking the right
+            font, etc. It took longer than I care to admit, but I am quite happy
+            with the result.
           </p>
         </div>
         <br />

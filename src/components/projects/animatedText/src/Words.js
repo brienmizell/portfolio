@@ -31,17 +31,11 @@ class Words extends React.Component {
   render() {
     return (
       <div className="hint-text">
-        <div className="text-line">
-          <p
-            className="t-bottom scale-down"
-            style={{ letterSpacing: "0.13em", marginLeft: "25px" }}
-          >
+        <div className="text-line ">
+          <p className="t-bottom scale-down" id="first">
             BRIEN
           </p>
-          <p
-            className="abs outline t-top scale-up"
-            style={{ letterSpacing: "0.13em", marginLeft: "25px" }}
-          >
+          <p className="abs outline t-top scale-up" id="first">
             BRIEN
           </p>
         </div>

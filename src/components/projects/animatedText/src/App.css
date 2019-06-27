@@ -86,3 +86,47 @@
 .hint-text .text-line:nth-child(2) p.scale-up.active {
   transform: translateZ(0) scaleY(1);
 }
+
+@media (max-width: 462px) {
+  .hint-text .text-line p {
+    font-size: 50px;
+    line-height: 43%;
+    padding: 10px 0px 12px 0px;
+  }
+  .hint-text .text-line p#first {
+    letter-spacing: 0.1em;
+    padding-left: 10px;
+  }
+}
+@media (min-width: 463px) and (max-width: 768px) {
+  .hint-text .text-line p {
+    font-size: 130px;
+    line-height: 48%;
+    padding: 14px 0px 20px 0px;
+  }
+  .hint-text .text-line p#first {
+    letter-spacing: 0.125em;
+    padding-left: 23px;
+  }
+}
+@media (min-width: 768px) {
+  .hint-text .text-line p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 170px;
+    line-height: 48%;
+    text-align: justify;
+    text-align-last: justify;
+    margin: 0;
+    position: relative;
+    -webkit-text-stroke-width: 2.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -0.2rem;
+    padding: 18px 0px 26px 0px;
+  }
+
+  .hint-text .text-line p#first {
+    letter-spacing: 0.13em;
+    padding-left: 25px;
+  }
+}
