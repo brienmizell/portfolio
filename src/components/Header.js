@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Menu, Segment } from "semantic-ui-react";
+import { Menu, Button, ButtonContent } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import Animation from "./Animation";
 
 class Header extends Component {
   state = { activeItem: "home" };
@@ -11,8 +12,8 @@ class Header extends Component {
     const { activeItem } = this.state;
 
     return (
-      <div style={{ paddingBottom: "20px" }} className="ui four">
-        <Menu pointing>
+      <div style={{ paddingBottom: "20px" }}>
+        <Menu secondary secondary size="huge" widths={6}>
           <Menu.Item
             name="home"
             active={activeItem === "home"}
@@ -35,6 +36,54 @@ class Header extends Component {
             as={Link}
             to="/interests"
           />
+          <Menu.Item>
+            <Button fluid color="linkedin" animated="fade">
+              <a
+                href="https://www.linkedin.com/in/brienmizell/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <ButtonContent visible>
+                  <i className="linkedin icon" style={{ color: "white" }} />
+                </ButtonContent>
+                <ButtonContent hidden style={{ color: "white" }}>
+                  LinkedIn
+                </ButtonContent>
+              </a>
+            </Button>
+          </Menu.Item>
+          <Menu.Item>
+            <Button fluid color="black" animated="fade">
+              <a
+                href="https://github.com/brienmizell"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <ButtonContent visible>
+                  <i className="github icon" style={{ color: "white" }} />
+                </ButtonContent>
+                <ButtonContent hidden style={{ color: "white" }}>
+                  GitHub
+                </ButtonContent>
+              </a>
+            </Button>
+          </Menu.Item>
+          <Menu.Item>
+            <Button fluid color="grey" animated="fade">
+              <a
+                href="mailto:brienmizell@me.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <ButtonContent visible>
+                  <i className="envelope icon" style={{ color: "white" }} />
+                </ButtonContent>
+                <ButtonContent hidden style={{ color: "white" }}>
+                  Email me!
+                </ButtonContent>
+              </a>
+            </Button>
+          </Menu.Item>
         </Menu>
       </div>
     );

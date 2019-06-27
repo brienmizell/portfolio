@@ -5,26 +5,17 @@ const Footer = () => {
     <div
       className="three ui buttons container"
       style={{
-        paddingTop: "15px",
-        position: "absolute",
-        bottom: "0",
-        width: "100%",
-        height: "36px",
-        paddingTop: "20px",
-        paddingTop: "20px",
-        backgroundColor: "none",
-        marginTop: "0",
-        marginBottom: "0"
+        paddingTop: "15px"
       }}
     >
-      <div className="big ui animated fade facebook button ">
+      <div className="big ui animated fade linkedin button ">
         <a
           href="https://www.linkedin.com/in/brienmizell/"
           rel="noopener noreferrer"
           target="_blank"
         >
           <div className="visible content">
-            <i className="big linkedin icon" />
+            <i className="big linkedin icon" style={{ color: "white" }} />
           </div>
           <div className="big hidden content">LinkedIn</div>
         </a>

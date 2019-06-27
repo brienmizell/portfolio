@@ -12,10 +12,11 @@ import MusicApp from "./MusicApp";
 import Pictures from "./Pictures";
 import DateCountdown from "./DateCountdown";
 import Animation from "./Animation";
+// import StickyFooter from "react-sticky-footer";
 
 const App = () => {
   return (
-    <div>
+    <div style={{ flex: "1" }}>
       <Router history={history}>
         <Header />
         <Switch>
@@ -28,7 +29,9 @@ const App = () => {
           <Route path="/countdown" exact component={DateCountdown} />
           <Route path="/animation" exact component={Animation} />
         </Switch>
-        <Footer />
+        {/* <StickyFooter>
+          <Footer />
+        </StickyFooter> */}
       </Router>
     </div>
   );

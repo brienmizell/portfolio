@@ -34,13 +34,13 @@ class Words extends React.Component {
         <div className="text-line">
           <p
             className="t-bottom scale-down"
-            style={{ letterSpacing: "0.13em", paddingLeft: "30px" }}
+            style={{ letterSpacing: "0.13em", marginLeft: "25px" }}
           >
             BRIEN
           </p>
           <p
             className="abs outline t-top scale-up"
-            style={{ letterSpacing: "0.13em", paddingLeft: "30px" }}
+            style={{ letterSpacing: "0.13em", marginLeft: "25px" }}
           >
             BRIEN
           </p>
