@@ -3,6 +3,7 @@ import DragonStack from "./projectCards/DragonStack";
 import MusicMaster from "./projectCards/MusicMaster";
 import PictureSearch from "./projectCards/PictureSearch";
 import Countdown from "./projectCards/Countdown";
+import Animation from "./projectCards/Animation";
 
 const Projects = () => {
   return (
@@ -11,6 +12,7 @@ const Projects = () => {
       <MusicMaster />
       <PictureSearch />
       <Countdown />
+      <Animation />
     </div>
   );
 };

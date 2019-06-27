@@ -2,15 +2,20 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="three ui buttons" style={{ paddingTop: "15px" }}>
-      <div className="big ui animated fade facebook button ">
+    <div
+      className="three ui buttons container"
+      style={{
+        paddingTop: "15px"
+      }}
+    >
+      <div className="big ui animated fade linkedin button ">
         <a
           href="https://www.linkedin.com/in/brienmizell/"
           rel="noopener noreferrer"
           target="_blank"
         >
           <div className="visible content">
-            <i className="big linkedin icon" />
+            <i className="big linkedin icon" style={{ color: "white" }} />
           </div>
           <div className="big hidden content">LinkedIn</div>
         </a>
