@@ -44,7 +44,9 @@ nav {
   perspective: 600px;
   z-index: 1000;
 }
-
+div.dropdown.dropdown1 {
+  width: 75vw;
+}
 .cool > li > a {
   color: yellow;
   text-decoration: none;
@@ -152,7 +154,7 @@ nav ul {
 
 .dropdown a {
   text-decoration: none;
-  color: #ffc600;
+  color: white;
 }
 
 a.button {
@@ -163,13 +165,7 @@ a.button {
   margin-bottom: 10px;
 }
 
-/* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
-.button[href*="twitter"] {
-  background: #019fe9;
-}
-.button[href*="facebook"] {
-  background: #3b5998;
-}
-.button[href*="courses"] {
-  background: #ffc600;
+.ui.fluid.button {
+  padding: 10px;
+  margin-bottom: 10px;
 }

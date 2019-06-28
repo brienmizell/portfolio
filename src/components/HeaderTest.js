@@ -60,38 +60,29 @@ class HeaderTest extends Component {
 
         <ul className="cool">
           <li>
-            <a href="#">About Me</a>
-            <div className="dropdown dropdown1">
-              <div className="bio">
-                <img src="https://logo.clearbit.com/wesbos.com" />
-                <p>
-                  Wes Bos sure does love web development. He teaches things like
-                  JavaScript, CSS and BBQ. Wait. BBQ isn't part of web
-                  development. It should be though!
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <a href="#">Courses</a>
+            <a href="/Projects">Projects</a>
             <ul className="dropdown courses">
               <li>
-                <span className="code">RFB</span>
-                <a href="https://ReactForBeginners.com">React For Beginners</a>
+                <a href="/music">Music Master</a>
+                <br />
+                <span className="code">Search and listen to music.</span>
               </li>
               <li>
-                <span className="code">ES6</span>
-                <a href="https://ES6.io">ES6 For Everyone</a>
+                <a href="/pictures">Picture Search</a>
+                <br />
+                <span className="code">Dynamically rendered photo search.</span>
               </li>
               <li>
-                <span className="code">NODE</span>
-                <a href="https://LearnNode.com">Learn Node</a>
+                <a href="/animation">Name Animation</a>
+                <br />
+                <span className="code">CSS animation of my name.</span>
               </li>
               <li>
-                <span className="code">STPU</span>
-                <a href="https://SublimeTextBook.com">
-                  Sublime Text Power User
-                </a>
+                <a href="/dragon">dragonStack</a>
+                <br />
+                <span className="code">
+                  Full-stack multi-account dragon collector application.
+                </span>
               </li>
               <li>
                 <span className="code">WTF</span>
@@ -118,25 +109,72 @@ class HeaderTest extends Component {
             </ul>
           </li>
           <li>
-            <a href="#">Other Links</a>
+            <a href="#">About Me</a>
+            <div className="dropdown dropdown1">
+              <div className="bio">
+                <img src="https://logo.clearbit.com/wesbos.com" />
+                <p>
+                  Wes Bos sure does love web development. He teaches things like
+                  JavaScript, CSS and BBQ. Wait. BBQ isn't part of web
+                  development. It should be though!
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">Connect With Me</a>
             <ul className="dropdown dropdown3">
               <li>
-                <a className="button" href="http://twitter.com/wesbos">
-                  Twitter
-                </a>
+                <div className="fluid large ui animated fade linkedin button ">
+                  <a
+                    href="https://www.linkedin.com/in/brienmizell/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <div className="visible content">
+                      <i
+                        className="large linkedin icon"
+                        style={{ color: "white" }}
+                      />
+                    </div>
+                    <div className="large hidden content">LinkedIn</div>
+                  </a>
+                </div>
               </li>
               <li>
-                <a
-                  className="button"
-                  href="http://facebook.com/wesbos.developer"
+                <div
+                  className="fluid large ui animated fade github button"
+                  style={{ backgroundColor: "black" }}
                 >
-                  Facebook
-                </a>
+                  <a
+                    href="https://github.com/brienmizell"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <div className="visible content">
+                      <i className="large github icon inverted" />
+                    </div>
+                    <div
+                      className="large hidden content"
+                      style={{ color: "white" }}
+                    >
+                      GitHub
+                    </div>
+                  </a>
+                </div>
               </li>
               <li>
-                <a className="button" href="http://wesbos.com">
-                  Blog
-                </a>
+                <div className="fluid large ui animated fade button ">
+                  <a href="mailto:brienmizell@me.com">
+                    <div className="visible content">
+                      <i
+                        className="large envelope icon"
+                        style={{ color: "black" }}
+                      />
+                    </div>
+                    <div className="large hidden content">Email Me</div>
+                  </a>
+                </div>
               </li>
               <li>
                 <a className="button" href="http://wesbos.com/courses">
