@@ -24,11 +24,7 @@ const Footer = () => {
         className="big ui animated fade github button"
         style={{ backgroundColor: "black" }}
       >
-        <a
-          href="https://github.com/brienmizell"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
+        <a href="https://github.com/brienmizell" rel="noopener noreferrer">
           <div className="visible content">
             <i className="big github icon inverted" />
           </div>

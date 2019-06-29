@@ -5,7 +5,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Interests from "./Interests";
 import Header from "./Header";
-import HeaderTest from "./HeaderTest";
+// import HeaderTest from "./HeaderTest";
 import history from "../history";
 import Footer from "./Footer";
 import MusicApp from "./MusicApp";
@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div style={{ flex: "1" }}>
       <Router history={history}>
-        <HeaderTest />
+        <Header />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/projects" exact component={Projects} />

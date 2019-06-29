@@ -70,11 +70,7 @@ class Header extends Component {
           </Menu.Item>
           <Menu.Item>
             <Button fluid color="grey" animated="fade">
-              <a
-                href="mailto:brienmizell@me.com"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <a href="mailto:brienmizell@me.com" rel="noopener noreferrer">
                 <ButtonContent visible>
                   <i className="envelope icon" style={{ color: "white" }} />
                 </ButtonContent>

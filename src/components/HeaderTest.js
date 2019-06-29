@@ -134,7 +134,7 @@ class HeaderTest extends Component {
                     <div className="visible content">
                       <i
                         className="large linkedin icon"
-                        style={{ color: "white" }}
+                        style={{ color: "white", textAlign: "center" }}
                       />
                     </div>
                     <div className="large hidden content">LinkedIn</div>
