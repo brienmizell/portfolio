@@ -1,0 +1,20 @@
+#sticky {
+  width: 100vw;
+  height: 69.13px;
+  padding: 10px 20px 0px 20px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  position: fixed; /*Here's what sticks it*/
+  bottom: 0; /*to the bottom of the window*/
+  left: 0; /*and to the left of the window.*/
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  footer#sticky.three.ui.buttons.container {
+    width: 100%;
+  }
+}

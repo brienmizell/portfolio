@@ -29,9 +29,8 @@ const App = () => {
           <Route path="/countdown" exact component={DateCountdown} />
           <Route path="/animation" exact component={Animation} />
         </Switch>
-        {/* <StickyFooter>
-          <Footer />
-        </StickyFooter> */}
+
+        <Footer />
       </Router>
     </div>
   );

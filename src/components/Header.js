@@ -13,7 +13,7 @@ class Header extends Component {
 
     return (
       <div style={{ paddingBottom: "20px" }}>
-        <Menu secondary secondary size="huge" widths={6}>
+        <Menu secondary secondary size="huge" widths={3}>
           <Menu.Item
             name="home"
             active={activeItem === "home"}
@@ -36,7 +36,7 @@ class Header extends Component {
             as={Link}
             to="/interests"
           />
-          <Menu.Item>
+          {/* <Menu.Item>
             <Button fluid color="linkedin" animated="fade">
               <a
                 href="https://www.linkedin.com/in/brienmizell/"
@@ -70,11 +70,7 @@ class Header extends Component {
           </Menu.Item>
           <Menu.Item>
             <Button fluid color="grey" animated="fade">
-              <a
-                href="mailto:brienmizell@me.com"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <a href="mailto:brienmizell@me.com" rel="noopener noreferrer">
                 <ButtonContent visible>
                   <i className="envelope icon" style={{ color: "white" }} />
                 </ButtonContent>
@@ -83,7 +79,7 @@ class Header extends Component {
                 </ButtonContent>
               </a>
             </Button>
-          </Menu.Item>
+          </Menu.Item> */}
         </Menu>
       </div>
     );
