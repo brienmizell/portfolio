@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 
 const Countdown = () => {
   return (
+
     <div className="ui card" style={{ marginBottom: "100px" }}>
+
       <div className="image">
         <img
           src={require("../../images/Countdown.png")}
