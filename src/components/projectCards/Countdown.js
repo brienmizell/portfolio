@@ -6,7 +6,7 @@ const Countdown = () => {
     <div className="ui card">
       <div className="image">
         <img
-          src={require("../../images/Countdown.png")}
+          src={require("../../images/countdown.png")}
           alt="countdown"
           style={{
             backgroundColor: "white"
@@ -42,7 +42,7 @@ const Countdown = () => {
         <br />
         <div className="extra content center floated">
           <a
-            href="https://github.com/brienmizell/mini-react-projects/tree/master/pics"
+            href="https://github.com/brienmizell/mini-react-projects/tree/master/date-countdown"
             rel="noopener noreferrer"
             target="_blank"
           >
