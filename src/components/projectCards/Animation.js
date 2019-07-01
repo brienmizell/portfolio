@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Animation = () => {
   return (
-    <div className="ui card">
+    <div className="ui card" style={{ marginBottom: "100px" }}>
       <div className="image">
         <img
           src={require("../../images/Animated-text.gif")}
