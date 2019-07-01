@@ -8,7 +8,7 @@ const Animation = () => {
         <img
           src={require("../../images/Animated-text.gif")}
           alt="Pictures Search"
-          style={{ padding: "178.815px 0px", backgroundColor: "white" }}
+          style={{ padding: "116.24px 0px", backgroundColor: "white" }}
         />
       </div>
       <div className="content">
