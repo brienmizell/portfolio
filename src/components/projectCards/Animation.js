@@ -39,7 +39,7 @@ const Animation = () => {
         <br />
         <div className="extra content center floated">
           <a
-            href="https://github.com/brienmizell/mini-react-projects/tree/master/pics"
+            href="https://github.com/brienmizell/Animated-Text"
             rel="noopener noreferrer"
             target="_blank"
           >
