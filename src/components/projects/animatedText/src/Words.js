@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
-import * as serviceWorker from "./serviceWorker";
 
-serviceWorker.unregister();
 class Words extends React.Component {
   constructor(props) {
     super(props);

@@ -6,7 +6,7 @@ const Countdown = () => {
     <div className="ui card">
       <div className="image">
         <img
-          src={require("../../images/countdown.png")}
+          src={require("../../images/Countdown.png")}
           alt="countdown"
           style={{
             backgroundColor: "white"
