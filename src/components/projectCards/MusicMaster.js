@@ -26,7 +26,7 @@ const MusicMaster = () => {
             info (picture, number of followers, and top tracks). It renders the
             top songs in rows with their corresponding album art. Once the user
             clicks the song, it will begin to play a 30-second snippet of the
-            song chosen.
+            song chosen, click again to pause.
           </p>
         </div>
         <br />

@@ -30,10 +30,8 @@ const Animation = () => {
             quite a challenge. I knew what I wanted, but a lot of the challenge
             was translating my thought process of creating it, to the CSS
             keywords that are needed to make it. Then finding the right cubic
-            bezier that I wanted, deciding if I wanted to alter the line spacing
-            of my first name to have them the same width, picking the right
-            font, etc. It took longer than I care to admit, but I am quite happy
-            with the result.
+            bezier that I wanted, picking the right font, etc. It took longer
+            than I care to admit, but I am quite happy with the result.
           </p>
         </div>
         <br />
