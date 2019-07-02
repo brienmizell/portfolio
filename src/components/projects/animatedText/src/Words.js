@@ -23,7 +23,7 @@ class Words extends React.Component {
           ? upEls[i].classList.remove("active")
           : upEls[i].classList.add("active");
       }
-    }, 3000);
+    }, 4000);
   }
 
   render() {

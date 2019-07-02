@@ -44,7 +44,7 @@
 }
 .hint-text .text-line p.outline {
   color: transparent;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2px;
 }
 .hint-text .text-line p.t-top {
   transform-origin: top;
