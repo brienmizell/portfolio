@@ -51,7 +51,7 @@ const PictureSearch = () => {
                 <i className="big github icon inverted" />
               </div>
               <div className="big hidden content" style={{ color: "white" }}>
-                GitHub
+                GitHub Repo
               </div>
             </div>
           </a>

@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Animation = () => {
   return (
-    <div className="ui card" style={{ marginBottom: "100px" }}>
+    <div className="ui card">
       <div className="image">
         <img
           src={require("../../images/Animated-text.gif")}
           alt="Pictures Search"
-          style={{ padding: "116.24px 0px", backgroundColor: "white" }}
+          style={{ padding: "151.495px 0px", backgroundColor: "white" }}
         />
       </div>
       <div className="content">
@@ -55,7 +55,7 @@ const Animation = () => {
                 <i className="big github icon inverted" />
               </div>
               <div className="big hidden content" style={{ color: "white" }}>
-                GitHub
+                GitHub Repo
               </div>
             </div>
           </a>
