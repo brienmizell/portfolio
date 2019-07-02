@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 
 const Countdown = () => {
   return (
-
     <div className="ui card" style={{ marginBottom: "100px" }}>
-
       <div className="image">
         <img
           src={require("../../images/Countdown.png")}
@@ -60,7 +58,7 @@ const Countdown = () => {
                 <i className="big github icon inverted" />
               </div>
               <div className="big hidden content" style={{ color: "white" }}>
-                GitHub
+                GitHub Repo
               </div>
             </div>
           </a>

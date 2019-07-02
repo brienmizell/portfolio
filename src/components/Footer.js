@@ -15,7 +15,7 @@ const Footer = () => {
               <i className="large linkedin icon" style={{ color: "white" }} />
             </div>
             <div className="large hidden content" style={{ color: "white" }}>
-              LinkedIn
+              LinkedIn Profile
             </div>
           </a>
         </div>
@@ -28,7 +28,7 @@ const Footer = () => {
               <i className="large github icon inverted" />
             </div>
             <div className="large hidden content" style={{ color: "white" }}>
-              GitHub
+              GitHub Profile
             </div>
           </a>
         </div>

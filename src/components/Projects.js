@@ -8,11 +8,11 @@ import Animation from "./projectCards/Animation";
 const Projects = () => {
   return (
     <div className="ui three doubling stackable cards">
-      <DragonStack />
       <MusicMaster />
       <PictureSearch />
-      <Countdown />
       <Animation />
+      <DragonStack />
+      <Countdown />
     </div>
   );
 };
