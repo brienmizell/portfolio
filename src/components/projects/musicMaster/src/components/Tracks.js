@@ -20,6 +20,10 @@ class Tracks extends Component {
     }
   };
 
+  componentWillUnmount() {
+    this.state.audio.pause();
+  }
+
   trackIcon = track => {
     if (!track.preview_url) {
       return <span>N/A</span>;
@@ -32,6 +36,9 @@ class Tracks extends Component {
     }
     return <span>&#9654;</span>;
   };
+  handleStop() {
+    this.setState({ playing: false });
+  }
 
   render() {
     const { tracks } = this.props;
