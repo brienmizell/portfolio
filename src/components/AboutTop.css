@@ -185,8 +185,13 @@ div#top {
   }
 }
 @media (min-width: 769px) {
+  div#top {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
   .face {
-    margin-right: 75px;
+    margin-right: 150px;
     width: 350px;
     border-radius: 50%;
   }

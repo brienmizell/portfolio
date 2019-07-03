@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div>
       <AboutTop />
-      About Me
+      <h1>Hi, that guy above is me.</h1>
     </div>
   );
 };
