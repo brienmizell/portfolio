@@ -1,11 +1,11 @@
 import React from "react";
+import "./AboutTop.css";
 import face from "../images/face.jpg";
-import "./About.css";
 
 const About = () => {
   return (
-    <div>
-      <img className="face" src={require("../images/face.jpg")} />
+    <div id="top">
+      <img className="face" src={face} />
       <div id="container">
         <div id="hmni-container">
           <div id="hmni-border">
