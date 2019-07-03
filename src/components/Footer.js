@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div id="sticky">
       <footer className="three ui buttons container">
-        <div className="large ui animated fade linkedin button ">
+        <div className="large ui animated fade linkedin button">
           <a
             href="https://www.linkedin.com/in/brienmizell/"
             rel="noopener noreferrer"

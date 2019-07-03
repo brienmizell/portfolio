@@ -6,7 +6,6 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-  font-family: "Cousine", monospace;
 }
 div#top {
   height: 100%;
@@ -17,6 +16,7 @@ div#top {
   justify-content: center;
 }
 #container {
+  font-family: "Cousine", monospace;
   height: 100%;
 }
 #hmni-container {
