@@ -186,9 +186,8 @@ div#top {
 }
 @media (min-width: 769px) {
   .face {
-    margin-right: 20px;
-    width: 200px;
-    height: 200px;
+    margin-right: 75px;
+    width: 350px;
     border-radius: 50%;
   }
   #hmni-upper-small {
