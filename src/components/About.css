@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: "Cousine", monospace;
+}
+
+#container {
+  height: 350px;
+  width: 500px;
+  width: 100%;
+}
+#hmni-container {
+  padding-top: 10px;
+  height: 350px;
+  width: 500px;
+  margin: auto;
+}
+#hmni-border {
+  height: 350px;
+}
+#hmni-background {
+  background-color: #1e90ff;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+}
+#hmni-upper-text-div {
+  height: 105px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+#hmni-upper-big {
+  padding-top: 25px;
+  font-size: 45pt;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+#hmni-upper-small {
+  font-weight: lighter;
+}
+#hmni-text {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+}
+#hmni-name {
+  text-align: center;
+  padding-top: 85px;
+  font-family: "Reenie Beanie", cursive;
+  letter-spacing: 0.2rem;
+  font-size: 70pt;
+  color: red;
+}
+
+@media (max-width: 462px) {
+  .face {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+  #hmni-container {
+    padding-top: 10px;
+    height: 175px;
+    width: 250px;
+    margin: auto;
+  }
+  #hmni-border {
+    height: 175px;
+  }
+  #hmni-upper-text-div {
+    height: 52.5px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+  }
+  #hmni-upper-big {
+    padding-top: 7.5px;
+    font-size: 15pt;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    height: 25px;
+  }
+  div#hmni-upper-small {
+    padding-top: 0px;
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 0;
+  }
+  #hmni-text {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+  }
+  #hmni-name {
+    text-align: center;
+    padding-top: 25px;
+    font-family: "Reenie Beanie", cursive;
+    letter-spacing: 0.1rem;
+    font-size: 35pt;
+  }
+  #hmni-title {
+    padding-top: 5px;
+    color: red;
+    font-size: 25px;
+    font-family: "Reenie Beanie", cursive;
+  }
+}
+@media (min-width: 463px) and (max-width: 768px) {
+  .face {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .face {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }
+  #hmni-upper-small {
+    padding-top: 15px;
+    font-size: 22pt;
+  }
+}

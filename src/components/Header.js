@@ -30,11 +30,11 @@ class Header extends Component {
             to="/projects"
           />
           <Menu.Item
-            name="interests"
-            active={activeItem === "interests"}
+            name="about"
+            active={activeItem === "about"}
             onClick={this.handleItemClick}
             as={Link}
-            to="/interests"
+            to="/about"
           />
           {/* <Menu.Item>
             <Button fluid color="linkedin" animated="fade">

@@ -3,7 +3,8 @@ import { Router, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Interests from "./Interests";
+// import Interests from "./Interests";
+import About from "./About";
 import Header from "./Header";
 // import HeaderTest from "./HeaderTest";
 import history from "../history";
@@ -23,7 +24,7 @@ const App = () => {
           <Route path="/" exact component={Home} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/contact" exact component={Contact} />
-          <Route path="/interests" exact component={Interests} />
+          <Route path="/about" exact component={About} />
           <Route path="/music" exact component={MusicApp} />
           <Route path="/pictures" exact component={Pictures} />
           <Route path="/countdown" exact component={DateCountdown} />

@@ -1,0 +1,24 @@
+div.around {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: unsafe center;
+  flex-direction: column;
+  justify-content: center;
+  text-justify: auto;
+  pointer-events: none;
+}
+
+p.pre {
+  font-family: "Cousine", monospace;
+  font-size: 50px;
+  line-height: 38%;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+  /* letter-spacing: -0.2rem; */
+  padding: 18px 0px 26px 0px;
+}

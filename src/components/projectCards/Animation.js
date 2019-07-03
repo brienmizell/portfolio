@@ -58,7 +58,7 @@ const Animation = () => {
             </div>
           </a>
           <br />
-          <Link to="/pictures">
+          <Link to="/animation">
             <div
               className="big ui animated fade icon button"
               style={{

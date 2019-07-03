@@ -32,21 +32,27 @@ const DragonStack = () => {
         </div>
         <br />
         <div className="extra content center floated">
-          <div
-            className="big ui animated fade github button center floated"
-            style={{
-              backgroundColor: "black",
-              display: "flex",
-              justifyContent: "center"
-            }}
+          <a
+            href="https://github.com/brienmizell/dragonStack"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            <div className="visible content">
-              <i className="big github icon inverted" />
+            <div
+              className="big ui animated fade github button center floated"
+              style={{
+                backgroundColor: "black",
+                display: "flex",
+                justifyContent: "center"
+              }}
+            >
+              <div className="visible content">
+                <i className="big github icon inverted" />
+              </div>
+              <div className="big hidden content" style={{ color: "white" }}>
+                GitHub Repo
+              </div>
             </div>
-            <div className="big hidden content" style={{ color: "white" }}>
-              GitHub Repo
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
