@@ -1,6 +1,6 @@
 #sticky {
   width: 100vw;
-  height: 69.13px;
+  height: 70px;
   padding: 10px 20px 0px 20px;
   background: black;
   color: white;
@@ -12,9 +12,31 @@
   left: 0; /*and to the left of the window.*/
   z-index: 100;
 }
+p.words {
+  display: none;
+}
 
 @media (max-width: 768px) {
   footer#sticky.three.ui.buttons.container {
     width: 100%;
+  }
+}
+
+.visible.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 462px) {
+  .visible.content {
+    flex-direction: column;
+  }
+  #sticky {
+    height: 110px;
+  }
+  p.words {
+    display: block;
   }
 }
