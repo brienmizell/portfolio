@@ -11,6 +11,8 @@
   text-justify: auto;
   pointer-events: none;
 }
+.hint-text#text {
+}
 
 .hint-text .text-line {
   color: red;
@@ -20,6 +22,7 @@
   /* border: 1px solid blue; */
   overflow: hidden;
 }
+
 .hint-text .text-line p {
   font-family: "Cousine", monospace;
   font-size: 170px;

@@ -8,7 +8,7 @@ const Animation = () => {
         <img
           src={require("../../images/Animated-text.gif")}
           alt="Pictures Search"
-          style={{ padding: "151.495px 0px", backgroundColor: "white" }}
+          style={{ backgroundColor: "white" }}
         />
       </div>
       <div className="content">
@@ -58,7 +58,7 @@ const Animation = () => {
             </div>
           </a>
           <br />
-          <Link to="/pictures">
+          <Link to="/animation">
             <div
               className="big ui animated fade icon button"
               style={{

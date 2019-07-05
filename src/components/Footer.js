@@ -1,18 +1,20 @@
 import React from "react";
 import "./Footer.css";
+import { isMobile } from "react-device-detect";
 
 const Footer = () => {
   return (
     <div id="sticky">
       <footer className="three ui buttons container">
-        <div className="large ui animated fade linkedin button ">
+        <div className="large ui animated fade linkedin button">
           <a
             href="https://www.linkedin.com/in/brienmizell/"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <div className="visible content">
+            <div className="visible content" style={{ color: "white" }}>
               <i className="large linkedin icon" style={{ color: "white" }} />
+              <p className="words">LinkedIn</p>
             </div>
             <div className="large hidden content" style={{ color: "white" }}>
               LinkedIn Profile
@@ -24,8 +26,9 @@ const Footer = () => {
           style={{ backgroundColor: "black" }}
         >
           <a href="https://github.com/brienmizell" rel="noopener noreferrer">
-            <div className="visible content">
+            <div className="visible content" style={{ color: "white" }}>
               <i className="large github icon inverted" />
+              <p className="words">GitHub</p>
             </div>
             <div className="large hidden content" style={{ color: "white" }}>
               GitHub Profile
@@ -34,10 +37,11 @@ const Footer = () => {
         </div>
         <div className="large ui animated fade button ">
           <a href="mailto:brienmizell@me.com">
-            <div className="visible content">
-              <i className="large envelope icon" style={{ color: "black" }} />
+            <div className="visible content" style={{ color: "black" }}>
+              <i className="large envelope icon" />
+              <p className="words">E-mail</p>
             </div>
-            <div className="large hidden content" style={{ color: "white" }}>
+            <div className="large hidden content" style={{ color: "black" }}>
               Email Me
             </div>
           </a>

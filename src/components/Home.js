@@ -1,9 +1,10 @@
 import React from "react";
 import Animation from "./Animation";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="around">
       <Animation />
     </div>
   );
