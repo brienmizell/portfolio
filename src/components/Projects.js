@@ -7,7 +7,10 @@ import Animation from "./projectCards/Animation";
 
 const Projects = () => {
   return (
-    <div className="ui three doubling stackable cards">
+    <div
+      className="ui three doubling stackable cards"
+      style={{ paddingBottom: "70px" }}
+    >
       <MusicMaster />
       <PictureSearch />
       <Animation />
