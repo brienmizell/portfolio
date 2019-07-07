@@ -11,7 +11,9 @@ const AboutMe = () => {
         tangible things. I now use programming languages to help bring ideas to
         fruition in the virtual world. I have always been a programmer, per se.
         I always enjoyed programming my life and making edits so that my life
-        would run as efficiently as possible.
+        would run as efficiently as possible. Once I was introduced to
+        computers, I would love searching for apps to make my life simpler or
+        more enriched. I am now{" "}
       </p>
     </div>
   );
