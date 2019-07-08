@@ -9,7 +9,12 @@ const AboutMe = () => {
       <p>
         I went from programming CNC machines to cut out precision parts to build
         tangible things. I now use programming languages to help bring ideas to
-        fruition in the virtual world.
+        fruition in the virtual world. I have always been a programmer, per se.
+        I always enjoyed programming my life and making edits so that my life
+        would run as efficiently as possible. Once I was introduced to
+        computers, I would love searching for apps to make my life simpler or
+        more enriched. I am now writing those apps to help others live a better
+        life and be better connected to the world around them.
       </p>
     </div>
   );
