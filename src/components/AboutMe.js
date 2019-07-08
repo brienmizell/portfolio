@@ -13,7 +13,8 @@ const AboutMe = () => {
         I always enjoyed programming my life and making edits so that my life
         would run as efficiently as possible. Once I was introduced to
         computers, I would love searching for apps to make my life simpler or
-        more enriched. I am now{" "}
+        more enriched. I am now writing those apps to help others live a better
+        life and be better connected to the world around them.
       </p>
     </div>
   );
