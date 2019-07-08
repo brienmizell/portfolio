@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { isMobile } from "react-device-detect";
 
 const Footer = () => {
   return (

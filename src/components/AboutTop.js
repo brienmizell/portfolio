@@ -16,7 +16,7 @@ const About = () => {
               </div>
               <div id="hmni-text">
                 <div id="hmni-name">Brien Mizell</div>
-                <div id="hmni-title">I'm a web developer.</div>
+                <div id="hmni-title">I'm a Software Engineer.</div>
               </div>
             </div>
           </div>
