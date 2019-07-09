@@ -30,7 +30,8 @@ const AboutMe = () => {
       <p>
         I love spending time with my dog, eating good food, spending time with
         great friends, drinking good beer, listening to good music, and watching
-        sports. I'm a Georgia native, and I love everything <span>�</span>.
+        sports. I'm a Georgia native, and I love everything <span>Atlanta</span>
+        .
       </p>
       <p>
         I take pride in the work I do and want to work for a company that will
