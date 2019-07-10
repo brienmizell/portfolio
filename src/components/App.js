@@ -13,6 +13,7 @@ import Pictures from "./Pictures";
 import DateCountdown from "./DateCountdown";
 import Animation from "./Animation";
 import AboutMe from "./AboutMe";
+import Resume from "./Resume";
 // import StickyFooter from "react-sticky-footer";
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/pictures" exact component={Pictures} />
           <Route path="/countdown" exact component={DateCountdown} />
           <Route path="/animation" exact component={Animation} />
+          <Route path="/resume" exact component={Resume} />
         </Switch>
 
         <Footer />
