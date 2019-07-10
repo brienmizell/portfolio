@@ -17,7 +17,7 @@ const MusicMaster = () => {
         <div className="paragraph center aligned">
           <p>
             The Music Master project is a small web app for the sole purpose of
-            reinforceing my learning of react by building a functional music
+            reinforcing my learning of React by building a functional music
             player.
             <br />
             <br />

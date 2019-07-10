@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Menu, Button, ButtonContent } from "semantic-ui-react";
+import { Menu, Dropdown } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import Animation from "./Animation";
 
@@ -13,7 +13,7 @@ class Header extends Component {
 
     return (
       <div style={{ paddingBottom: "20px" }}>
-        <Menu secondary secondary size="huge" widths={3}>
+        <Menu secondary secondary size="huge" widths={4}>
           <Menu.Item
             name="home"
             active={activeItem === "home"}
@@ -36,6 +36,34 @@ class Header extends Component {
             as={Link}
             to="/about"
           />
+          <Dropdown text="Contact" pointing className="link item">
+            <Dropdown.Menu>
+              <Dropdown.Item
+                as="a"
+                href="https://www.linkedin.com/in/brienmizell/"
+                target="_blank"
+              >
+                LinkedIn
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="a"
+                href="https://github.com/brienmizell"
+                target="_blank"
+              >
+                GitHub
+              </Dropdown.Item>
+              <Dropdown.Item
+                as="a"
+                href="mailto:brienmizell@me.com"
+                target="_blank"
+              >
+                E-mail
+              </Dropdown.Item>
+              <Dropdown.Item as="a" href="/resume">
+                Resume
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
           {/* <Menu.Item>
             <Button fluid color="linkedin" animated="fade">
               <a
