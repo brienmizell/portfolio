@@ -6,6 +6,7 @@ const AboutMe = () => {
   return (
     <div id="about-me">
       <AboutTop />
+      <br />
       <p>Why did I want to become a Software Engineer?</p>
       <p>
         The simple answer is that I love it. I love the thrill, and I love
