@@ -1,11 +1,37 @@
-import React from "react";
+import React, { Component } from "react";
+import { Document, Page } from "react-pdf/dist/entry.parcel";
+import { pdfjs } from "react-pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${
+  pdfjs.version
+}/pdf.worker.js`;
 
-const Resume = () => {
-  return (
-    <div>
-      <embed src="../images/Brien Mizell - Resume 2019.pdf" />
-    </div>
-  );
-};
+class Resume extends Component {
+  state = {
+    numPages: null,
+    pageNumber: 1
+  };
+
+  onDocumentLoadSuccess = ({ numPages }) => {
+    this.setState({ numPages });
+  };
+
+  render() {
+    const { pageNumber, numPages } = this.state;
+
+    return (
+      <div>
+        <Document
+          file="../images/Resume.pdf"
+          onLoadSuccess={this.onDocumentLoadSuccess}
+        >
+          <Page pageNumber={pageNumber} />
+        </Document>
+        <p>
+          Page {pageNumber} of {numPages}
+        </p>
+      </div>
+    );
+  }
+}
 
 export default Resume;

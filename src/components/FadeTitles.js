@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import "./AboutTop.css";
-import face from "../images/face.jpg";
 
 const TITLES = [
   "a software engineer",
@@ -14,7 +12,7 @@ const TITLES = [
   "highly adaptable"
 ];
 
-class About extends Component {
+class FadeTitles extends Component {
   state = { titleIndex: 0, fadeIn: true };
 
   componentDidMount() {
@@ -42,33 +40,13 @@ class About extends Component {
     const { fadeIn, titleIndex } = this.state;
 
     const title = TITLES[titleIndex];
+
     return (
-      <div id="top">
-        <img className="face" src={face} />
-        <div id="container">
-          <div id="hmni-container">
-            <div id="hmni-border">
-              <div id="hmni-background">
-                <div id="hmni-upper-text-div">
-                  <div id="hmni-upper-big">HELLO</div>
-                  <div id="hmni-upper-small">my name is</div>
-                </div>
-                <div id="hmni-text">
-                  <div id="hmni-name">Brien Mizell</div>
-                  <div
-                    id="hmni-title"
-                    className={fadeIn ? "title-fade-in" : "title-fade-out"}
-                  >
-                    I am {title}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <p className={fadeIn ? "title-fade-in" : "title-fade-out"}>
+        I am {title}
+      </p>
     );
   }
 }
 
-export default About;
+export default FadeTitles;

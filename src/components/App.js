@@ -7,7 +7,7 @@ import Contact from "./Contact";
 import Header from "./Header";
 // import HeaderTest from "./HeaderTest";
 import history from "../history";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import MusicApp from "./MusicApp";
 import Pictures from "./Pictures";
 import DateCountdown from "./DateCountdown";
@@ -33,7 +33,7 @@ const App = () => {
           <Route path="/resume" exact component={Resume} />
         </Switch>
 
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );
