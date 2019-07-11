@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Menu, Dropdown } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import Animation from "./Animation";
+import PDF from "../images/Resume.pdf";
 
 class Header extends Component {
   state = { activeItem: "home" };
@@ -59,7 +60,7 @@ class Header extends Component {
               >
                 E-mail
               </Dropdown.Item>
-              <Dropdown.Item as="a" href="/resume">
+              <Dropdown.Item as="a" href={PDF} target="_blank">
                 Resume
               </Dropdown.Item>
             </Dropdown.Menu>
