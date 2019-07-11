@@ -1,11 +1,14 @@
 import React from "react";
 import AboutTop from "./AboutTop";
 import "./AboutMe.css";
+import FadeTitles from "./FadeTitles";
 
 const AboutMe = () => {
   return (
     <div id="about-me">
       <AboutTop />
+      <br />
+      <FadeTitles />
       <br />
       <p>Why did I want to become a Software Engineer?</p>
       <p>
