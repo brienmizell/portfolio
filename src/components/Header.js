@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Menu, Dropdown } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import Animation from "./Animation";
-import PDF from "../images/Resume.pdf";
+import PDF from "../images/Brien Mizell - Resume 2019.pdf";
 
 class Header extends Component {
   state = { activeItem: "home" };
