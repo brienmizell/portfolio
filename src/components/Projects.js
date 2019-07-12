@@ -4,6 +4,7 @@ import MusicMaster from "./projectCards/MusicMaster";
 import PictureSearch from "./projectCards/PictureSearch";
 import Countdown from "./projectCards/Countdown";
 import Animation from "./projectCards/Animation";
+import Streamster from "./projectCards/Streamster";
 
 const Projects = () => {
   return (
@@ -13,6 +14,7 @@ const Projects = () => {
     >
       <MusicMaster />
       <PictureSearch />
+      <Streamster />
       <Animation />
       <DragonStack />
       <Countdown />
