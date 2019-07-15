@@ -14,88 +14,79 @@ const Skills = () => {
     //   }}
     >
         <h1 style={{paddingTop: "25px", width:"100%"}}>Skills</h1>
-      <div className="four wide column">
-<img src={require("../images/html5.svg")} style={{ height: "80px" }} alt="icon" />
-      
-          </div>
-      
-
-      <div className="four wide column">
-          <img src={require("../images/Js.svg")} style={{ height: "80px" }} alt="icon" />
+        <div className="four wide column">
+            <img src={require("../images/html5.svg")} style={{ height: "80px" }} alt="icon" />
+        </div>
+        <div className="four wide column">
+            <img src={require("../images/CSS3.svg")} style={{ height: "80px" }} alt="icon" />
+            </div>
+        <div className="four wide column">
+            <img src={require("../images/sass.svg")} style={{ height: "80px" }} alt="icon" />
+            </div>
+        <div className="four wide column">
+            <img src={require("../images/Js.svg")} style={{ height: "80px" }} alt="icon" />
+            </div>
+        <div className="four wide column">
+            <img className='react-icon' src={require("../images/React.svg")} style={{ height: "80px" }} alt="icon" />
         </div>
 
-
-<div className="four wide column">
-
-      <img src={require("../images/React.svg")} style={{ height: "80px" }} alt="icon" />
-
-</div>
-
-    <div className="four wide column">
-        <img
-            src={require("../images/nodejs.svg")}
-            style={{ height: "80px", height: "80px" }}
-            alt="icon"
+        <div className="four wide column">
+            <img
+                src={require("../images/nodejs.svg")}
+                style={{ height: "80px", height: "80px" }}
+                alt="icon"
+            />
+        </div>
+        <div className="four wide column">
+            <img src={require("../images/Python.svg")} style={{ height: "80px" }} alt="icon"/>
+        </div>
+        <div className="four wide column">
+            <img src={require("../images/AJAX.svg")} style={{ height: "80px" }} alt="icon" />
+        </div>
+        <div className="four wide column">
+            <img
+                src={require("../images/expressjs.svg")}
+                style={{ height: "80px", color: "white" }}
+                alt="icon"
+            />
+        </div>
+        <div className="four wide column">
+            <img src={require("../images/Angular.svg")} style={{ height: "80px" }} alt="icon" />
+        </div>
+        <div className="four wide column">
+            <img src={require("../images/Redux.svg")} style={{ height: "80px" }} alt="icon"/>
+        </div>
+        <div className="four wide column">
+            <img
+                src={require("../images/postgresql.svg")}
+                style={{ height: "80px", color: "#336791" }}
+                alt="icon"
         />
-    </div>
-    <div className="four wide column">
-
-        <img src={require("../images/Python.svg")} style={{ height: "80px" }} alt="icon"/>
-
-    </div>
-    
-    <div className="four wide column">
-
-        <img src={require("../images/AJAX.svg")} style={{ height: "80px" }} alt="icon" />
-
-    </div>
-    
-    <div className="four wide column">
-
-        <img
-            src={require("../images/expressjs.svg")}
-            style={{ height: "80px", color: "white" }}
-            alt="icon"
-        />
-    </div>
-
-    <div className="four wide column">
-
-        <img src={require("../images/Angular.svg")} style={{ height: "80px" }} alt="icon" />
-
-    </div>
-    
-    <div className="four wide column">
-
-        <img src={require("../images/Redux.svg")} style={{ height: "80px" }} alt="icon"/>
-
-    </div>
-    
-    <div className="four wide column">
-
-        <img
-            src={require("../images/postgresql.svg")}
-            style={{ height: "80px", color: "#336791" }}
-            alt="icon"
-
-    />
-    </div>
-
-    <div className="four wide column">
-
-        <img src={require("../images/slack.svg")} style={{ height: "80px" }} alt="icon" />
-
-    </div>
-    
-    <div className="four wide column">
-
-        <img
-            src={require("../images/raspberry-pi.svg")}
-            style={{ height: "80px" }}
-            alt="icon"
-        />
-
-    </div>
+        </div>
+        <div className="four wide column">
+            <img src={require("../images/slack.svg")} style={{ height: "80px" }} alt="icon" />
+        </div>
+        <div className="four wide column">
+            <img
+                src={require("../images/raspberry-pi.svg")}
+                style={{ height: "80px" }}
+                alt="icon"
+            />
+        </div>
+        <div className="four wide column">
+            <img
+                src={require("../images/AWS.svg")}
+                style={{ height: "80px" }}
+                alt="icon"
+            />
+        </div>
+        <div className="four wide column">
+            <img
+                src={require("../images/visual-studio-code.svg")}
+                style={{ height: "80px" }}
+                alt="icon"
+            />
+        </div>
     </div>
   );
 };
