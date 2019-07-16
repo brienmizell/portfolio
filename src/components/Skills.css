@@ -1,0 +1,24 @@
+.react-icon {
+  animation: React-logo-spin infinite 20s linear;
+  pointer-events: none;
+}
+.react-ico {
+  animation: React-logo-spin infinite 20s linear;
+  pointer-events: none;
+}
+.postgresql {
+  color: #336791;
+}
+
+img.icon {
+  height: 80px;
+}
+
+@keyframes React-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

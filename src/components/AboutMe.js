@@ -1,6 +1,7 @@
 import React from "react";
 import AboutTop from "./AboutTop";
 import "./AboutMe.css";
+import Skills from "./Skills";
 // import FadeTitles from "./FadeTitles";
 
 const AboutMe = () => {
@@ -39,6 +40,8 @@ const AboutMe = () => {
         and long hours, because any job worth doing is worth doing right. If
         this philosophy aligns with yours, please feel free to contact me.
       </p>
+
+      <Skills />
     </div>
   );
 };
