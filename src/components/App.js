@@ -35,7 +35,7 @@ const App = () => {
         </Switch>
 
         {/* <Footer /> */}
-        <PoweredBy />
+        {/* <PoweredBy /> */}
       </Router>
     </div>
   );
