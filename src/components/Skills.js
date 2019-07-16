@@ -22,10 +22,10 @@ const Skills = () => {
         <img className="icon" src={require("../images/CSS3.svg")} alt="icon" />
         <div>CSS</div>
       </div>
-      <div className="four wide column">
+      {/* <div className="four wide column">
         <img className="icon" src={require("../images/sass.svg")} alt="icon" />
         <div>SCSS</div>
-      </div>
+      </div> */}
       <div className="four wide column">
         <img className="icon" src={require("../images/Js.svg")} alt="icon" />
         <div>JavaScript</div>
@@ -102,6 +102,14 @@ const Skills = () => {
       <div className="four wide column">
         <img className="icon" src={require("../images/AWS.svg")} alt="icon" />
         <div>Amazon Web Server</div>
+      </div>
+      <div className="four wide column">
+        <img
+          className="icon"
+          src={require("../images/feather.svg")}
+          alt="icon"
+        />
+        <div>Apache</div>
       </div>
       <div className="four wide column">
         <img
