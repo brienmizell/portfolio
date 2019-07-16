@@ -1,10 +1,10 @@
-import React from "react";
 import { Router, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Projects from "./Projects";
 import Contact from "./Contact";
 // import Interests from "./Interests";
 import Header from "./Header";
+import React from "react";
 // import HeaderTest from "./HeaderTest";
 import history from "../history";
 // import Footer from "./Footer";
@@ -14,6 +14,7 @@ import DateCountdown from "./DateCountdown";
 import Animation from "./Animation";
 import AboutMe from "./AboutMe";
 import Resume from "./Resume";
+import PoweredBy from "./PoweredBy";
 // import StickyFooter from "react-sticky-footer";
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
         </Switch>
 
         {/* <Footer /> */}
+        <PoweredBy />
       </Router>
     </div>
   );
