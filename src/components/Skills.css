@@ -9,9 +9,16 @@
 .postgresql {
   color: #336791;
 }
-
+div.text {
+  font-size: 15px;
+}
 img.icon {
   height: 80px;
+}
+div.ui.grid.container.cards {
+  display: flex;
+  flex-direction: row;
+  width: auto;
 }
 
 @keyframes React-logo-spin {
@@ -21,4 +28,17 @@ img.icon {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width: 462px) {
+  img.icon {
+    height: 35px;
+  }
+  div.text {
+    font-size: 12px;
+  }
+}
+@media (min-width: 463px) and (max-width: 769px) {
+}
+@media (min-width: 769px) {
 }
