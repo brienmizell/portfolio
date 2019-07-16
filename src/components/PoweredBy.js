@@ -7,7 +7,7 @@ const PoweredBy = () => {
         className="icon"
         src={require("../images/Apache.png")}
         alt="icon"
-        style={{ height: "100px" }}
+        style={{ height: "75px" }}
       />
     </div>
   );
