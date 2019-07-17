@@ -32,21 +32,25 @@ const Skills = () => {
       </div>
       <div className="four wide column">
         <img
-          className="icon react-icon"
-          src={require("../images/React.svg")}
-          alt="icon"
-        />
-        <div className="text">React</div>
-      </div>
-
-      <div className="four wide column">
-        <img
           className="icon"
           src={require("../images/nodejs.svg")}
           alt="icon"
         />
         <div className="text">Node</div>
       </div>
+      <div className="four wide column">
+        <img
+          className="icon react-icon"
+          src={require("../images/React.svg")}
+          alt="icon"
+        />
+        <div className="text">React</div>
+      </div>
+      <div className="four wide column">
+        <img className="icon" src={require("../images/Redux.svg")} alt="icon" />
+        <div className="text">Redux</div>
+      </div>
+
       <div className="four wide column">
         <img
           className="icon"
@@ -76,20 +80,12 @@ const Skills = () => {
         <div className="text">Angular</div>
       </div>
       <div className="four wide column">
-        <img className="icon" src={require("../images/Redux.svg")} alt="icon" />
-        <div className="text">Redux</div>
-      </div>
-      <div className="four wide column">
         <img
           className="icon postgresql"
           src={require("../images/postgresql.svg")}
           alt="icon"
         />
         <div className="text">PostgreSQL</div>
-      </div>
-      <div className="four wide column">
-        <img className="icon" src={require("../images/slack.svg")} alt="icon" />
-        <div className="text">Slack</div>
       </div>
       <div className="four wide column">
         <img
@@ -100,8 +96,8 @@ const Skills = () => {
         <div className="text">Raspberry Pi</div>
       </div>
       <div className="four wide column">
-        <img className="icon" src={require("../images/AWS.svg")} alt="icon" />
-        <div className="text">Amazon Web Server</div>
+        <img className="icon" src={require("../images/AWS.png")} alt="icon" />
+        <div className="text">AWS</div>
       </div>
       <div className="four wide column">
         <img
@@ -112,12 +108,16 @@ const Skills = () => {
         <div className="text">Apache</div>
       </div>
       <div className="four wide column">
+        <img className="icon" src={require("../images/slack.svg")} alt="icon" />
+        <div className="text">Slack</div>
+      </div>
+      <div className="four wide column">
         <img
           className="icon"
           src={require("../images/visual-studio-code.svg")}
           alt="icon"
         />
-        <div className="text">Visual Studio Code.</div>
+        <div className="text">VSC</div>
       </div>
     </div>
   );

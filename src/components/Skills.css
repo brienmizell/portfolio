@@ -31,11 +31,19 @@ div.ui.grid.container.cards {
 }
 
 @media (max-width: 462px) {
+  /* div.ui.grid.container.cards {
+    padding: 0;
+  } */
+  div.style {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   img.icon {
     height: 35px;
   }
   div.text {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 @media (min-width: 463px) and (max-width: 769px) {
