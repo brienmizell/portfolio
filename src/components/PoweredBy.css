@@ -1,0 +1,9 @@
+div.power {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

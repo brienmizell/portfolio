@@ -14,7 +14,6 @@ import DateCountdown from "./DateCountdown";
 import Animation from "./Animation";
 import AboutMe from "./AboutMe";
 import Resume from "./Resume";
-import PoweredBy from "./PoweredBy";
 // import StickyFooter from "react-sticky-footer";
 
 const App = () => {
@@ -35,7 +34,6 @@ const App = () => {
         </Switch>
 
         {/* <Footer /> */}
-        {/* <PoweredBy /> */}
       </Router>
     </div>
   );
