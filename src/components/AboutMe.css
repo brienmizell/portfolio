@@ -50,3 +50,19 @@ div#about-me {
     opacity: 100;
   }
 }
+
+@media (max-width: 325px) {
+  p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 326px) and (max-width: 462px) {
+  p {
+    font-size: 17px;
+  }
+}
+@media (min-width: 463px) and (max-width: 769px) {
+  p {
+    font-size: 20px;
+  }
+}

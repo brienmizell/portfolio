@@ -9,6 +9,10 @@
 .postgresql {
   color: #336791;
 }
+div.ui.grid.container.cards > div.four.wide.column {
+  padding-left: 0;
+  padding-right: 0;
+}
 div.text {
   font-size: 15px;
 }
@@ -21,6 +25,11 @@ div.ui.grid.container.cards {
   width: auto;
 }
 
+div.text {
+  font-family: "Tajawal, sans-serif";
+  font-size: 20px;
+}
+
 @keyframes React-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,23 +39,29 @@ div.ui.grid.container.cards {
   }
 }
 
-@media (max-width: 462px) {
-  /* div.ui.grid.container.cards {
-    padding: 0;
-  } */
-  div.style {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
+@media (max-width: 325px) {
   img.icon {
     height: 35px;
   }
   div.text {
-    font-size: 10px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 326px) and (max-width: 462px) {
+  img.icon {
+    height: 50px;
+  }
+  div.text {
+    font-size: 17px;
   }
 }
 @media (min-width: 463px) and (max-width: 769px) {
+  img.icon {
+    height: 50px;
+  }
+  div.text {
+    font-size: 20px;
+  }
 }
 @media (min-width: 769px) {
 }

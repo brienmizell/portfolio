@@ -36,7 +36,7 @@ const Skills = () => {
           src={require("../images/nodejs.svg")}
           alt="icon"
         />
-        <div className="text">Node</div>
+        <div className="text">Node.js</div>
       </div>
       <div className="four wide column">
         <img
@@ -69,7 +69,7 @@ const Skills = () => {
           src={require("../images/expressjs.svg")}
           alt="icon"
         />
-        <div className="text">Express.js</div>
+        <div className="text">Express</div>
       </div>
       <div className="four wide column">
         <img
@@ -88,14 +88,6 @@ const Skills = () => {
         <div className="text">PostgreSQL</div>
       </div>
       <div className="four wide column">
-        <img
-          className="icon"
-          src={require("../images/raspberry-pi.svg")}
-          alt="icon"
-        />
-        <div className="text">Raspberry Pi</div>
-      </div>
-      <div className="four wide column">
         <img className="icon" src={require("../images/AWS.png")} alt="icon" />
         <div className="text">AWS</div>
       </div>
@@ -106,6 +98,14 @@ const Skills = () => {
           alt="icon"
         />
         <div className="text">Apache</div>
+      </div>
+      <div className="four wide column">
+        <img
+          className="icon"
+          src={require("../images/raspberry-pi.svg")}
+          alt="icon"
+        />
+        <div className="text">Raspberry Pi</div>
       </div>
       <div className="four wide column">
         <img className="icon" src={require("../images/slack.svg")} alt="icon" />
