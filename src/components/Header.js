@@ -61,7 +61,7 @@ class Header extends Component {
               >
                 E-mail
               </Dropdown.Item>
-              <Dropdown.Item as={Link} to={PDF} target="_blank">
+              <Dropdown.Item as="a" href={PDF} target="_blank">
                 Resume
               </Dropdown.Item>
             </Dropdown.Menu>
