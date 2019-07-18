@@ -3,6 +3,7 @@ import { Menu, Dropdown } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import Animation from "./Animation";
 import PDF from "../images/Brien Mizell - Resume 2019.pdf";
+import "./Header.css";
 
 class Header extends Component {
   state = { activeItem: "home" };
@@ -14,7 +15,7 @@ class Header extends Component {
 
     return (
       <div style={{ paddingBottom: "20px" }}>
-        <Menu secondary secondary size="huge" widths={4}>
+        <Menu secondary size="huge" widths={4}>
           <Menu.Item
             name="home"
             active={activeItem === "home"}
@@ -37,30 +38,30 @@ class Header extends Component {
             as={Link}
             to="/about"
           />
-          <Dropdown text="Contact" pointing className="link item">
+          <Dropdown secondary text="Contact" pointing className="link item">
             <Dropdown.Menu>
               <Dropdown.Item
-                as="a"
-                href="https://www.linkedin.com/in/brienmizell/"
+                as={Link}
+                to="https://www.linkedin.com/in/brienmizell/"
                 target="_blank"
               >
                 LinkedIn
               </Dropdown.Item>
               <Dropdown.Item
-                as="a"
-                href="https://github.com/brienmizell"
+                as={Link}
+                to="https://github.com/brienmizell"
                 target="_blank"
               >
                 GitHub
               </Dropdown.Item>
               <Dropdown.Item
-                as="a"
-                href="mailto:brienmizell@me.com"
+                as={Link}
+                to="mailto:brienmizell@me.com"
                 target="_blank"
               >
                 E-mail
               </Dropdown.Item>
-              <Dropdown.Item as="a" href={PDF} target="_blank">
+              <Dropdown.Item as={Link} to={PDF} target="_blank">
                 Resume
               </Dropdown.Item>
             </Dropdown.Menu>
