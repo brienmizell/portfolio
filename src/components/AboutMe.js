@@ -40,6 +40,7 @@ const AboutMe = () => {
         and long hours, because any job worth doing is worth doing right. If
         this philosophy aligns with yours, please feel free to contact me.
       </p>
+      <hr />
 
       <Skills />
     </div>

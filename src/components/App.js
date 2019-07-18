@@ -1,10 +1,10 @@
-import React from "react";
-import { Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Projects from "./Projects";
 import Contact from "./Contact";
 // import Interests from "./Interests";
 import Header from "./Header";
+import React from "react";
 // import HeaderTest from "./HeaderTest";
 import history from "../history";
 // import Footer from "./Footer";
@@ -19,7 +19,7 @@ import Resume from "./Resume";
 const App = () => {
   return (
     <div style={{ flex: "1" }}>
-      <Router history={history}>
+      <HashRouter history={history}>
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
@@ -34,7 +34,7 @@ const App = () => {
         </Switch>
 
         {/* <Footer /> */}
-      </Router>
+      </HashRouter>
     </div>
   );
 };
