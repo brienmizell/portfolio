@@ -3,6 +3,7 @@ import { Menu, Dropdown } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import Animation from "./Animation";
 import PDF from "../images/Brien Mizell - Resume 2019.pdf";
+import "./Header.css";
 
 class Header extends Component {
   state = { activeItem: "home" };
@@ -14,7 +15,7 @@ class Header extends Component {
 
     return (
       <div style={{ paddingBottom: "20px" }}>
-        <Menu secondary secondary size="huge" widths={4}>
+        <Menu secondary size="huge" widths={4}>
           <Menu.Item
             name="home"
             active={activeItem === "home"}
@@ -37,7 +38,7 @@ class Header extends Component {
             as={Link}
             to="/about"
           />
-          <Dropdown text="Contact" pointing className="link item">
+          <Dropdown secondary text="Contact" pointing className="link item">
             <Dropdown.Menu>
               <Dropdown.Item
                 as={Link}

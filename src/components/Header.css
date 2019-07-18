@@ -1,0 +1,13 @@
+a.item {
+  font-family: Tajawal, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ui.menu .item {
+  font-weight: 400;
+}
+
+div.text {
+  font-weight: 200;
+}
