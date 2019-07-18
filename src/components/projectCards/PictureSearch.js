@@ -6,7 +6,7 @@ const PictureSearch = () => {
     <div className="ui card">
       <div className="image">
         <img
-          src={require("../../images/PictureSearch.png")}
+          src={require("../../images/PictureSearch.jpg")}
           alt="Pictures Search"
         />
       </div>

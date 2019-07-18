@@ -4,7 +4,7 @@ const DragonStack = () => {
   return (
     <div className="ui card">
       <div className="image">
-        <img src={require("../../images/dragonStack.png")} alt="dragon stack" />
+        <img src={require("../../images/dragonStack.jpg")} alt="dragon stack" />
       </div>
       <div className="content">
         <div className="header center aligned">dragonStack</div>
