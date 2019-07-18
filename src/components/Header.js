@@ -40,27 +40,27 @@ class Header extends Component {
           <Dropdown text="Contact" pointing className="link item">
             <Dropdown.Menu>
               <Dropdown.Item
-                as="a"
-                href="https://www.linkedin.com/in/brienmizell/"
+                as={Link}
+                to="https://www.linkedin.com/in/brienmizell/"
                 target="_blank"
               >
                 LinkedIn
               </Dropdown.Item>
               <Dropdown.Item
-                as="a"
-                href="https://github.com/brienmizell"
+                as={Link}
+                to="https://github.com/brienmizell"
                 target="_blank"
               >
                 GitHub
               </Dropdown.Item>
               <Dropdown.Item
-                as="a"
-                href="mailto:brienmizell@me.com"
+                as={Link}
+                to="mailto:brienmizell@me.com"
                 target="_blank"
               >
                 E-mail
               </Dropdown.Item>
-              <Dropdown.Item as="a" href={PDF} target="_blank">
+              <Dropdown.Item as={Link} to={PDF} target="_blank">
                 Resume
               </Dropdown.Item>
             </Dropdown.Menu>
