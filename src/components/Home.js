@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="around">
       <Animation />
-      {/* <PoweredBy /> */}
+      <PoweredBy />
     </div>
   );
 };
