@@ -5,7 +5,7 @@ const MusicMaster = () => {
   return (
     <div className="ui card">
       <div className="image">
-        <img src={require("../../images/MusicMaster.png")} alt="Music Master" />
+        <img src={require("../../images/MusicMaster.jpg")} alt="Music Master" />
       </div>
       <div className="content">
         <div className="header center aligned">Music Master</div>

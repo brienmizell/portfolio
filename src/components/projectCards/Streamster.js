@@ -5,7 +5,7 @@ const Streamster = () => {
     <div className="ui card">
       <div className="image">
         <img
-          src={require("../../images/Streamster.png")}
+          src={require("../../images/Streamster.jpg")}
           alt="dragon stack"
           style={{ paddingTop: "22" }}
         />
