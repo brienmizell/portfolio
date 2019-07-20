@@ -1,13 +1,22 @@
 a.item {
-  font-family: Tajawal, sans-serif;
+  font-family: "Tajawal, sans-serif";
   font-size: 20px;
-  font-weight: 400;
+  height: 50px;
+  font-weight: 200;
 }
 
 .ui.menu .item {
-  font-weight: 400;
+  font-weight: 200;
 }
 
 div.text {
   font-weight: 200;
+  font-size: 20px;
+}
+div.ui.dropdown.link.item div.text {
+  font-size: 20px;
+}
+
+div {
+  height: auto;
 }

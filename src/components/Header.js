@@ -15,7 +15,7 @@ class Header extends Component {
 
     return (
       <div style={{ paddingBottom: "20px" }}>
-        <Menu secondary size="huge" widths={4}>
+        <Menu secondary widths={4}>
           <Menu.Item
             name="home"
             active={activeItem === "home"}
@@ -38,7 +38,14 @@ class Header extends Component {
             as={Link}
             to="/about"
           />
-          <Dropdown secondary text="Contact" pointing className="link item">
+          <Dropdown
+            text="Contact"
+            name="contact"
+            size="huge"
+            className="link item"
+            active={activeItem === "contact"}
+            onClick={this.handleItemClick}
+          >
             <Dropdown.Menu>
               <Dropdown.Item
                 as={Link}
