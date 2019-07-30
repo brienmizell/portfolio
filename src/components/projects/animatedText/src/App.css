@@ -24,16 +24,16 @@
 }
 
 .hint-text .text-line p {
-  font-family: "Cousine", monospace;
+  font-family: "Anonymous Pro", monospace;
   font-size: 170px;
-  line-height: 48%;
+  line-height: 65%;
   text-align: justify;
   text-align-last: justify;
   margin: 0;
   position: relative;
   text-transform: uppercase;
   /* letter-spacing: -0.2rem; */
-  padding: 18px 0px 26px 0px;
+  padding: 0px 0px 0px 0px;
 }
 .hint-text .text-line p:after {
   content: ”;
@@ -91,9 +91,9 @@
 @media (max-width: 462px) {
   .hint-text .text-line p {
     font-size: 70px;
-    line-height: 43%;
+    line-height: 66%;
     margin-right: 2px;
-    padding: 14px 0px 4px 0px;
+    padding: 0px 0px 0px 0px;
   }
   .hint-text .text-line p#first {
     /* letter-spacing: 1.12rem; */
@@ -107,8 +107,8 @@
 @media (min-width: 463px) and (max-width: 768px) {
   .hint-text .text-line p {
     font-size: 130px;
-    line-height: 48%;
-    padding: 21px 0px 5px 0px;
+    line-height: 57%;
+    padding: 5px 0px 5px 0px;
   }
   .hint-text .text-line p#first {
     /* letter-spacing: 0.13em; */
@@ -119,9 +119,9 @@
     color: transparent;
   }
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .hint-text .text-line p {
-    font-family: "Cousine", monospace;
+    font-family: "Anonymous Pro", monospace;
     font-size: 170px;
     line-height: 48%;
     text-align: justify;
@@ -134,8 +134,5 @@
     padding: 27px 0px 6px 0px;
   }
 
-  .hint-text .text-line p#first {
-    /* letter-spacing: 0.11em; */
-    /* padding-left: 25px; */
-  }
-}
+  
+} */
